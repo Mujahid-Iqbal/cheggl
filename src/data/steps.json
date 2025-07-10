@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "/Userpic.svg",
+    "title": "Sign Up",
+    "description": "Create your free account in seconds."
+  },
+  {
+    "id": 2,
+    "icon": "/Userpic.svg",
+    "title": "Browse Tools",
+    "description": "Explore study guides, tools, and expert help."
+  },
+  {
+    "id": 3,
+    "icon": "/Userpic.svg",
+    "title": "Start Learning",
+    "description": "Use tools to boost understanding and grades."
+  }
+]
