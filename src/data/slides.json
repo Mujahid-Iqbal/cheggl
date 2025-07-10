@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "/boo.jpg",
+    "headline": "Unlock Your Potential",
+    "subhead": "Access personalized learning tools anytime, anywhere.",
+    "cta": "Get Started"
+  },
+  {
+    "id": 2,
+    "image": "/boo.jpg",
+    "headline": "Smarter Study, Better Grades",
+    "subhead": "Interactive guides and real-time feedback.",
+    "cta": "Explore Features"
+  },
+  {
+    "id": 3,
+    "image": "/boo.jpg",
+    "headline": "Support Every Step of the Way",
+    "subhead": "24/7 tutoring and academic help.",
+    "cta": "Join Now"
+  }
+]
