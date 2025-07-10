@@ -3,11 +3,11 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import useDarkMode from '@/hooks/useDarkMode';
+// import useDarkMode from '@/hooks/useDarkMode';
 
 export default function Header() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-  const { enabled, toggle } = useDarkMode();
+  // const { enabled, toggle } = useDarkMode();
 
   return (
     <header className="bg-white dark:bg-neutral-900 shadow-md dark:text-white">
@@ -25,7 +25,7 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:flex item-center space-x-4">
-             <button
+             {/* <button
               onClick={toggle}
               className="flex items-center gap-2 border px-3 py-1 rounded hover:bg-gray-100 dark:hover:bg-neutral-700 transition"
               aria-label="Toggle dark mode"
@@ -37,7 +37,7 @@ export default function Header() {
                 height={20}
               />
               <span className="hidden sm:inline text-sm">{enabled ? 'Dark' : 'Light'}</span>
-            </button>
+            </button> */}
           <Link href="/login" className="px-4 py-2">Login</Link>
           <Link href="/signup" className="px-4 py-2 bg-indigo-600 text-white rounded">Sign Up</Link>
         </div>
