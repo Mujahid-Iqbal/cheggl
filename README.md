@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cheggl Homepage Redesign
 
-## Getting Started
+A modern, responsive frontend redesign of the Cheggl.com homepage using **Next.js 14**, **TypeScript**, and **Tailwind CSS**. This project focuses on scalable component architecture, accessibility, and pixel-perfect visual replication of the original site layout.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Tech Stack
+
+- [Next.js 14](https://nextjs.org/)
+- [React 18](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Swiper.js](https://swiperjs.com/) (Hero slider & testimonials)
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── app/                  # Next.js app router layout
+│   ├── layout.tsx        # Global layout
+│   ├── page.tsx          # Home page
+│   └── globals.css       # Global styles (Tailwind + resets)
+├── components/           # Shared UI components
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── HeroSlider.tsx
+│   ├── FeatureCards.tsx
+│   ├── HowItWorks.tsx
+│   ├── Testimonials.tsx
+│   └── ...
+├── data/                 # Static JSON data for components
+│   ├── slides.json
+│   ├── features.json
+│   ├── steps.json
+│   └── testimonials.json
+└── hooks/                # Custom hooks if needed
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/Mujahid-Iqbal/cheggl.git
+cd cheggl
+npm install
+npm run dev
+```
 
-## Learn More
+Then open: [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Responsive global header & footer
+- Fully accessible hero slider (keyboard + ARIA)
+- Feature cards, how-it-works steps, and testimonials
+- Static JSON-driven rendering (no external API)
+- Mobile menu with hamburger toggle
+- Keyboard & screen-reader accessible
+- Uses semantic HTML and Tailwind for styling
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed for educational/demo purposes.
+
+---
+
+## 👨‍💻 Author
+
+Built with ❤️ by [Mujahid Iqbal](https://github.com/Mujahid-Iqbal)
