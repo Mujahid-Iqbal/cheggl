@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "avatar": "/person.png",
+    "name": "Sarah Johnson",
+    "role": "Student at NYU",
+    "quote": "Cheggl helped me ace my finals with interactive tools and real-time feedback."
+  },
+  {
+    "id": 2,
+    "avatar": "/person.png",
+    "name": "David Kim",
+    "role": "Computer Science Major",
+    "quote": "The platform's AI-powered suggestions were spot on. Love the UX too!"
+  },
+  {
+    "id": 3,
+    "avatar": "/person.png",
+    "name": "Emily Carter",
+    "role": "High School Junior",
+    "quote": "Having expert help available 24/7 made a huge difference for my grades."
+  },
+   {
+    "id": 4,
+    "avatar": "/person.png",
+    "name": "Emily Carter",
+    "role": "High School Junior",
+    "quote": "Having expert help available 24/7 made a huge difference for my grades."
+  },
+   {
+    "id": 5,
+    "avatar": "/person.png",
+    "name": "Emily Carter",
+    "role": "High School Junior",
+    "quote": "Having expert help available 24/7 made a huge difference for my grades."
+  }
+]
