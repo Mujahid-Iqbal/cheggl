@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "/userpic2.svg",
+    "title": "Smart Study Tools",
+    "description": "Access flashcards, summaries, and guided solutions."
+  },
+  {
+    "id": 2,
+    "icon": "/userpic2.svg",
+    "title": "Progress Tracking",
+    "description": "Visualize your progress and identify improvement areas."
+  },
+  {
+    "id": 3,
+    "icon": "/userpic2.svg",
+    "title": "Expert Tutors",
+    "description": "Get 24/7 help from academic professionals."
+  },
+  {
+    "id": 4,
+    "icon": "/userpic2.svg",
+    "title": "Resource Library",
+    "description": "Thousands of reference materials at your fingertips."
+  }
+]
